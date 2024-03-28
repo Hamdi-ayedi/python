@@ -9,7 +9,7 @@ COPY . /app
 
 # Install any needed dependencies specified in requirements.txt
 # (if you have any dependencies)
-# RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Run ops.py when the container launches
 CMD ["python", "ops.py"]
